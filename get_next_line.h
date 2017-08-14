@@ -14,8 +14,8 @@
 # define GET_NEXT_LINE_H
 # define BUFF_SIZE 18
 
-#include "libft/libft.h"
-#include <stdlib.h>
+# include "libft/libft.h"
+# include <stdlib.h>
 
 int	line_creator(char **line, const int fd, char **str, char *buff);
 int	get_next_line(int fd, char **line);
