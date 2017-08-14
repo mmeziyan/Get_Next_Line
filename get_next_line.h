@@ -17,7 +17,7 @@
 #include "libft/libft.h"
 #include <stdlib.h>
 
-int	line_creator(char **line, const int fd, char **stock, char *str);
+int	line_creator(char **line, const int fd, char **str, char *buff);
 int	get_next_line(int fd, char **line);
 
 #endif
